@@ -1,7 +1,19 @@
 namespace Bakery.Models
 {
-  public class Bread
+  public class BreadOrder
   {
+    public int Loaves;
+    public int Cost;
+    public BreadOrder (int loaves, int cost)
+    {
+      Loaves = loaves;
+      Cost = cost;
+    }
+
+
+
+
+
     // create object with fields for cost of bread order and number of loaves ordered
     // declare cost per loaf at $5
     // gather number of loaves ordered
@@ -12,7 +24,7 @@ namespace Bakery.Models
 
 
 
-  public class Pastry
+  public class PastryOrder
   {
     // create object with fields for cost of pastry order and number of pastries ordered
     // declare cost per pastry at $2

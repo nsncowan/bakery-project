@@ -1,0 +1,12 @@
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.csproj.AssemblyReference.cache
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfoInputs.cache
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.AssemblyInfo.cs
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\bin\Debug\net6.0\Bakery.deps.json
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\bin\Debug\net6.0\Bakery.dll
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\bin\Debug\net6.0\Bakery.pdb
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.dll
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\refint\Bakery.dll
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\Bakery.pdb
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery\obj\Debug\net6.0\ref\Bakery.dll

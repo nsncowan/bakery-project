@@ -1,18 +1,27 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using Bakery.Models;
 
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BreadTests
+  public class BreadOrderTests
   {
+    [TestMethod]
+    public void CreateBakeryOrderObject_CreateBakeryOrderObject()
+    {
+      int loaves = 1;
+      int cost = 5;
+      BreadOrder test = new BreadOrder(loaves, cost);
+      Assert.AreEqual(typeof(BreadOrder), test.GetType());
+      Assert.AreEqual(1, test.Loaves);
+    }
     
   }
 
 
 
   [TestClass]
-  public class PastryTests
+  public class PastryOrderTests
   {
     
   }
