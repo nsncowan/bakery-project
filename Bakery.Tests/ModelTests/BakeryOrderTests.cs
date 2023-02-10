@@ -25,7 +25,7 @@ namespace Bakery.Tests
       int testloaves = 7;
       /* int testcost = 25; */
       BreadOrder test2 = new BreadOrder(testloaves/* , testcost */);
-      Assert.AreEqual(test2.BreadOrderCost(testloaves), 25);
+      Assert.AreEqual(test2.GetBreadPrice(testloaves), 25);
     }
   }
 
@@ -50,7 +50,7 @@ namespace Bakery.Tests
       int testloaves = 7;
       /* int testcost = 25; */
       BreadOrder test2 = new BreadOrder(testloaves/* , testcost */);
-      Assert.AreEqual(test2.BreadOrderCost(testloaves), 25);
+      Assert.AreEqual(test2.GetBreadPrice(testloaves), 25);
     }
  
   }

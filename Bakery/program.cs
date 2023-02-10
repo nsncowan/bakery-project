@@ -16,8 +16,8 @@ namespace Bakery
       BreadOrder myBreadOrder = new BreadOrder(inputLoaves);
       PastryOrder myPastryOrder = new PastryOrder(inputPastries);
 
-      int myBreadCost = myBreadOrder.BreadOrderCost();
-      int myPastryCost = myPastryOrder.PastryOrderCost();
+      int myBreadCost = myBreadOrder.GetBreadPrice(inputLoaves);
+      int myPastryCost = myPastryOrder.GetPastryPrice(inputPastries);
       int totalCost = myBreadCost + myPastryCost;
 
       Console.WriteLine($"Your Bread order is ${myBreadCost}. \nAnd your Pastry order is ${myPastryCost}. \nYour grand total is ${totalCost}.");

@@ -15,7 +15,7 @@ namespace Bakery.Models
       // Cost = cost; => discuss where to include cost
     }
 
-    public int BreadOrderCost(int numberOfLoaves)
+    public int GetBreadPrice(int numberOfLoaves)
     {
       numberOfLoaves = Loaves;
       BreadCost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
@@ -35,7 +35,7 @@ namespace Bakery.Models
       // Cost = cost; => discuss where to include cost
     }
 
-    public int PastryOrderCost(int numberOfPastries)
+    public int GetPastryPrice(int numberOfPastries)
     {
       numberOfPastries = Pastries;
       PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 3) * CostPerPastry);
