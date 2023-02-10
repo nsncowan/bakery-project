@@ -23,8 +23,6 @@ namespace Bakery.Models
     }
   }
 
-
-
   public class PastryOrder
   {
     public int Pastries{get; set;}
@@ -43,16 +41,6 @@ namespace Bakery.Models
       PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 3) * CostPerPastry);
       return PastryCost;
     }
-
-
-
-
-
-
-
-
-
-
 
 
     // create object with fields for cost of pastry order and number of pastries ordered
