@@ -1,4 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Linq;
+
 using Bakery.Models;
 
 namespace Bakery.Tests
@@ -14,6 +17,16 @@ namespace Bakery.Tests
       BreadOrder test = new BreadOrder(loaves, cost);
       Assert.AreEqual(typeof(BreadOrder), test.GetType());
       Assert.AreEqual(1, test.Loaves);
+    }
+
+    [TestMethod]
+    public void BreadOrderCost_ReturnBreadOrderCost_Int()
+    {
+      int testloaves = 7;
+      int testcost = 25;
+      BreadOrder test2 = new BreadOrder(testloaves, testcost);
+      Assert.AreEqual(test2.BreadOrderCost(testloaves), 25);
+
     }
     
   }

@@ -1,17 +1,26 @@
+using System;
+using System.Linq;
+
 namespace Bakery.Models
 {
   public class BreadOrder
   {
-    public int Loaves;
-    public int Cost;
+    public int Loaves{get; set;}
+    public int Cost{get; set;}
+    public int CostPerLoaf = 5;
+
     public BreadOrder (int loaves, int cost)
     {
       Loaves = loaves;
       Cost = cost;
     }
 
-
-
+    public int BreadOrderCost(int numberOfLoaves)
+    {
+      numberOfLoaves = Loaves;
+      int breadTotal = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
+      return breadTotal;
+    }
 
 
     // create object with fields for cost of bread order and number of loaves ordered
