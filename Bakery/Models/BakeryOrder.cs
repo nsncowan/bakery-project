@@ -6,35 +6,55 @@ namespace Bakery.Models
   public class BreadOrder
   {
     public int Loaves{get; set;}
-    public int Cost{get; set;}
+    public int BreadCost{get; set;}
     public int CostPerLoaf = 5;
 
-    public BreadOrder (int loaves, int cost)
+    public BreadOrder (int loaves/* , int cost */)
     {
       Loaves = loaves;
-      Cost = cost;
+      // Cost = cost; => discuss where to include cost
     }
 
     public int BreadOrderCost(int numberOfLoaves)
     {
       numberOfLoaves = Loaves;
-      int breadTotal = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
-      return breadTotal;
+      BreadCost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
+      return BreadCost;
     }
-
-
-    // create object with fields for cost of bread order and number of loaves ordered
-    // declare cost per loaf at $5
-    // gather number of loaves ordered
-    // set cost of every 3rd loaf to $0
-      // alt: divide total loaves by 3, then subtract (quotientInt * 5) from total. 
-      // remember: arithmetic with int's will always be truncated
   }
 
 
 
   public class PastryOrder
   {
+    public int Pastries{get; set;}
+    public int PastryCost{get; set;}
+    public int CostPerPastry = 2;
+
+    public PastryOrder (int pastries/* , int cost */)
+    {
+      Pastries = pastries;
+      // Cost = cost; => discuss where to include cost
+    }
+
+    public int PastryOrderCost(int numberOfPastries)
+    {
+      numberOfPastries = Pastries;
+      PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 3) * CostPerPastry);
+      return PastryCost;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     // create object with fields for cost of pastry order and number of pastries ordered
     // declare cost per pastry at $2
     // gather number of pastries ordered
@@ -43,3 +63,9 @@ namespace Bakery.Models
       // remember: arithmetic with int's will always be truncated
   }
 }
+
+
+/* 
+question: originally i had the "Cost" variable as a field in the BreadOrder constructor. Then I moved it outside the constructor, but still within the BreadOrder class. Both led to passing tests, I want to discuss ways to think about variable placement in this context. 
+
+ */
