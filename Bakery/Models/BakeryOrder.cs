@@ -6,7 +6,7 @@ namespace Bakery.Models
   public class BreadOrder
   {
     public int Loaves{get; set;}
-    public int BreadCost{get; set;}
+    public int Cost{get; set;}
     public int CostPerLoaf = 5;
 
     public BreadOrder (int loaves/* , int cost */)
@@ -18,9 +18,18 @@ namespace Bakery.Models
     public int GetBreadPrice(int numberOfLoaves)
     {
       numberOfLoaves = Loaves;
-      BreadCost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
-      return BreadCost;
+      Cost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
+      return Cost;
     }
+
+    
+    
+    // public int GetBreadPrice(int numberOfLoaves)
+    // {
+    //   numberOfLoaves = Loaves;
+    //   BreadCost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
+    //   return BreadCost;
+    // }
   }
 
   public class PastryOrder
