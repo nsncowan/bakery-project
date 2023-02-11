@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
-
 using Bakery.Models;
 
 namespace Bakery.Tests
@@ -29,8 +28,6 @@ namespace Bakery.Tests
     }
   }
 
-
-
   [TestClass]
   public class PastryOrderTests
   {
@@ -52,21 +49,5 @@ namespace Bakery.Tests
       BreadOrder test2 = new BreadOrder(testloaves/* , testcost */);
       Assert.AreEqual(test2.GetBreadPrice(testloaves), 25);
     }
- 
   }
-
 }
-
-
-// Example test format:
-
-/*
-
-[TestMethod]
-public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
-{
-  // any necessary logic to prep for test; instantiating new classes, etc.
-  Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
-}
-
- */
