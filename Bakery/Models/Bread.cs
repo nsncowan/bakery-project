@@ -8,41 +8,17 @@ namespace Bakery.Models
     public int Loaves{get; set;}
     public int BreadCost{get; set;}
     public int CostPerLoaf = 5;
-
     public BreadOrder (int loaves/* , int cost */)
     {
       Loaves = loaves;
       // Cost = cost; => discuss where to include cost
     }
-
     public int GetBreadPrice(int numberOfLoaves)
     {
       numberOfLoaves = Loaves;
       BreadCost = (numberOfLoaves * CostPerLoaf) - ((numberOfLoaves / 3) * CostPerLoaf);
       return BreadCost;
     }
-  }
-
-  public class PastryOrder
-  {
-    public int Pastries{get; set;}
-    public int PastryCost{get; set;}
-    public int CostPerPastry = 2;
-
-    public PastryOrder (int pastries/* , int cost */)
-    {
-      Pastries = pastries;
-      // Cost = cost; => discuss where to include cost
-    }
-
-    public int GetPastryPrice(int numberOfPastries)
-    {
-      numberOfPastries = Pastries;
-      PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 4) * CostPerPastry);
-      return PastryCost;
-    }
-
-
   }
 }
 

@@ -99,3 +99,6 @@ C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\obj\Debug\ne
 C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\obj\Debug\net6.0\Bakery.Tests.pdb
 C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\obj\Debug\net6.0\Bakery.Tests.genruntimeconfig.cache
 C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\obj\Debug\net6.0\ref\Bakery.Tests.dll
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\bin\Debug\net6.0\Bakery.deps.json
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\bin\Debug\net6.0\Bakery.runtimeconfig.json
+C:\Users\nsnco\OneDrive\Desktop\BakeryProject.Solution\Bakery.Tests\bin\Debug\net6.0\Bakery.exe
