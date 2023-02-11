@@ -38,7 +38,7 @@ namespace Bakery.Models
     public int GetPastryPrice(int numberOfPastries)
     {
       numberOfPastries = Pastries;
-      PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 3) * CostPerPastry);
+      PastryCost = (numberOfPastries * CostPerPastry) - ((numberOfPastries / 4) * CostPerPastry);
       return PastryCost;
     }
 
