@@ -20,7 +20,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadOrderCost_ReturnBreadOrderCost_Int()
+    public void GetBreadPrice_ReturnBreadOrderCost_Int()
     {
       int testloaves = 7;
       /* int testcost = 25; */
